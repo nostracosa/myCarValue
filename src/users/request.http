@@ -6,3 +6,10 @@ content-type: application/json
   "email": "kiko@example.com",
   "password": "password123"
 } 
+
+### Find a partocular user with a givern ID
+GET  http://localhost:3000/auth/1
+content-Content-Type: application/json
+
+### Find all users with a given email
+GET http://localhost:3000/auth?email=kiko@example.com
