@@ -7,9 +7,12 @@ content-type: application/json
   "password": "password123"
 } 
 
-### Find a partocular user with a givern ID
+### Find a user with a given ID
 GET  http://localhost:3000/auth/1
 content-Content-Type: application/json
 
 ### Find all users with a given email
 GET http://localhost:3000/auth?email=kiko@example.com
+
+### Delete a user with a given ID
+DELETE http://localhost:3000/auth/1
